@@ -1,0 +1,48 @@
+name: Daily Sync and Streak Update
+
+on:
+  schedule:
+    # 23:30 Việt Nam là 16:30 UTC
+    - cron: '30 16 * * *'
+  workflow_dispatch: # Cho phép bấm chạy tay để test
+
+jobs:
+  sync-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Merge all user branches
+        run: |
+          # Lấy danh sách tất cả các nhánh remote có tiền tố 'dev-' (hoặc bạn tự đặt tên)
+          # Ở đây mình sẽ cố gắng merge mọi nhánh trừ main
+          git fetch origin
+          for branch in $(git branch -r | grep 'origin/' | grep -v 'origin/main'); do
+            remote_branch=${branch#origin/}
+            echo "Merging $remote_branch..."
+            git merge --no-ff "origin/$remote_branch" -m "Auto-merge $remote_branch" || git merge --abort
+          done
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run Streak Script
+        run: python update_leaderboard.py
+
+      - name: Commit and Push to Main
+        run: |
+          git add .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Daily update: Leaderboard & Streaks [skip ci]" && git push origin main)

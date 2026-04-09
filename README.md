@@ -1,7 +1,8 @@
+## 📊 Bảng Theo Dõi Tiến Độ (Leaderboard)
 
-| Thành viên | Thư mục | Tổng số ngày | Trạng thái |
-| :--- | :--- | :---: | :--- |
-| **datnt1112** | [/members/datnt1112](./members/datnt1112) | 01 | ⏳ |
+| Thành viên    | Thư mục                                   | Tổng số ngày   | Trạng thái |
+|:--------------|:------------------------------------------|:--------------:|:-----------|
+| **datnt1112** | [/members/datnt1112](./members/datnt1112) |       01       | ⏳          |
 # 🚀 Cert-5-Daily: Kỷ Luật & Chinh Phục 🎯
 
 Dự án này là nơi lưu trữ quá trình ôn luyện chứng chỉ hàng ngày của anh em. Với tiêu chí: **5 câu mỗi ngày - 15 phút tập trung - Tích tiểu thành đại.**
@@ -53,13 +54,6 @@ Anh em có thể copy mẫu này vào file .md hàng ngày để thống nhất 
 ---
 **Ghi chú/Thảo luận:** (Ví dụ: Câu 3 hôm nay hơi khó, anh em có tài liệu nào về phần này không?)
 ```
-
-## 📊 Bảng Theo Dõi Tiến Độ (Leaderboard)
-
-| Thành viên       | Thư mục   | Tổng số ngày   | Trạng thái   |
-|:-----------------|:----------|:--------------:|:-------------|
-| Đang cập nhật... |           |                |              |
-
 
 💡 Một số mẹo nhỏ cho anh em
 Tạo file nhanh: Nếu dùng Linux/macOS hoặc Git Bash, bạn có thể dùng lệnh này trong folder của mình để tạo file ngày hôm nay:
