@@ -1,0 +1,31 @@
+name: Update Leaderboard
+
+on:
+  push:
+    paths:
+      - 'members/**' # Chỉ chạy khi có thay đổi trong thư mục members
+  workflow_dispatch: # Cho phép chạy thủ công nếu muốn
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run update script
+        run: python update_leaderboard.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "docs: update leaderboard [skip ci]" && git push)
