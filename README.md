@@ -1,3 +1,8 @@
+
+| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
+| :---: | :--- | :---: | :---: | :---: |
+| 🥇 | kiennv | 1 🔥 | 1 🏆 | ✅ Done |
+| 🥈 | datnt1112 | 1 🔥 | 1 🏆 | ✅ Done |
 ## 📊 Bảng Theo Dõi Tiến Độ (Leaderboard)
 
 | Thành viên    | Thư mục                                   | Tổng số ngày   | Trạng thái |
