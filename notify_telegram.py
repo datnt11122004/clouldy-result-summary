@@ -37,7 +37,7 @@ def get_added_evidence_files():
     return added
 
 
-def get_current_streak(username):
+def get_current_streak(username, date_str):
     """Count current consecutive streak for a member."""
     member_dir = os.path.join("members", username)
     if not os.path.isdir(member_dir):
@@ -52,7 +52,7 @@ def get_current_streak(username):
     sorted_dates = sorted(
         set(datetime.strptime(d, "%Y-%m-%d").date() for d in dates)
     )
-    today = datetime.now().date()
+    today = datetime.strptime(date_str, "%Y-%m-%d").date()
     if today not in sorted_dates:
         # File just pushed may not yet be on disk in the runner;
         # treat today as included.
@@ -68,15 +68,24 @@ def get_current_streak(username):
     return streak
 
 
+def escape_md(text: str) -> str:
+    """Escape special characters for Telegram MarkdownV2."""
+    special = r'_*[]()~`>#+-=|{}.!'
+    return re.sub(r'([' + re.escape(special) + r'])', r'\\\1', text)
+
+
 def build_message(username, date_str, streak, commit_sha, repo_full_name):
     quote = random.choice(MOTIVATIONAL_QUOTES)
     commit_url = f"https://github.com/{repo_full_name}/commit/{commit_sha}"
+    safe_username = escape_md(username)
+    safe_date = escape_md(date_str)
+    safe_quote = escape_md(quote)
     return (
-        f"🎉 *{username}* đã gửi evidence\\!\n\n"
-        f"📅 Ngày: {date_str}\n"
+        f"🎉 *{safe_username}* đã gửi evidence\\!\n\n"
+        f"📅 Ngày: {safe_date}\n"
         f"🔥 Streak hiện tại: {streak} ngày\n"
         f"🔗 [Xem bài]({commit_url})\n\n"
-        f"💪 _{quote}_"
+        f"💪 _{safe_quote}_"
     )
 
 
@@ -105,10 +114,15 @@ def main():
         return
 
     for username, date_str in added_files:
-        streak = get_current_streak(username)
+        streak = get_current_streak(username, date_str)
         message = build_message(username, date_str, streak, commit_sha, repo_full_name)
-        send_telegram(token, chat_id, message)
-        print(f"Notified: {username} | {date_str} | streak={streak}")
+        try:
+            send_telegram(token, chat_id, message)
+            print(f"Notified: {username} | {date_str} | streak={streak}")
+        except requests.HTTPError as e:
+            print(f"ERROR sending for {username}: {e.response.text}")
+        except requests.RequestException as e:
+            print(f"ERROR sending for {username}: {e}")
 
 
 if __name__ == "__main__":
