@@ -1,6 +1,11 @@
 
 | Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
 | :---: | :--- | :---: | :---: | :---: |
+| 🥇 | ngon-219 | 3 🔥 | 3 🏆 | ✅ Done |
+| 🥈 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
+
+| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
+| :---: | :--- | :---: | :---: | :---: |
 | 🥇 | ngon-219 | 1 🔥 | 1 🏆 | ✅ Done |
 | 🥈 | datnt1112 | 1 🔥 | 1 🏆 | ✅ Done |
 
