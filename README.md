@@ -7,6 +7,12 @@
 
 | Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
 | :---: | :--- | :---: | :---: | :---: |
+| 🥇 | casper | 3 🔥 | 3 🏆 | ✅ Done |
+| 🥈 | ngon-219 | 0 🔥 | 1 🏆 | ❌ Missing |
+| 🥉 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
+
+| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
+| :---: | :--- | :---: | :---: | :---: |
 | 🥇 | ngon-219 | 0 🔥 | 1 🏆 | ❌ Missing |
 | 🥈 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
 
