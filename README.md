@@ -1,8 +1,24 @@
 
 | Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
 | :---: | :--- | :---: | :---: | :---: |
-| 🥇 | datnt1112 | 1 🔥 | 1 🏆 | ✅ Done |
-| 🥈 | casper | 0 🔥 | 0 🏆 | ❌ Missing |
+| 🥇 | ngon-219 | 0 🔥 | 1 🏆 | ❌ Missing |
+| 🥈 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
+
+| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
+| :---: | :--- | :---: | :---: | :---: |
+| 🥇 | ngon-219 | 0 🔥 | 1 🏆 | ❌ Missing |
+| 🥈 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
+
+| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
+| :---: | :--- | :---: | :---: | :---: |
+| 🥇 | ngon-219 | 1 🔥 | 1 🏆 | ✅ Done |
+| 🥈 | datnt1112 | 1 🔥 | 1 🏆 | ✅ Done |
+
+| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
+| :---: | :--- | :---: | :---: | :---: |
+| 🥇 | ngon-219 | 1 🔥 | 1 🏆 | ✅ Done |
+| 🥈 | datnt1112 | 1 🔥 | 1 🏆 | ✅ Done |
+
 ## 📊 Bảng Theo Dõi Tiến Độ (Leaderboard)
 
 | Thành viên    | Thư mục                                   | Tổng số ngày   | Trạng thái |
