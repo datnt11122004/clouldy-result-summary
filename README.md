@@ -1,69 +1,14 @@
-
-| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
-| :---: | :--- | :---: | :---: | :---: |
-| 🥇 | ngon-219 | 3 🔥 | 3 🏆 | ✅ Done |
-| 🥈 | casper | 3 🔥 | 3 🏆 | ✅ Done |
-| 🥉 | kiennv | 0 🔥 | 1 🏆 | ❌ Missing |
-| 4 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
-
-| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
-| :---: | :--- | :---: | :---: | :---: |
-| 🥇 | ngon-219 | 3 🔥 | 3 🏆 | ✅ Done |
-| 🥈 | casper | 3 🔥 | 3 🏆 | ✅ Done |
-| 🥉 | kiennv | 0 🔥 | 1 🏆 | ❌ Missing |
-| 4 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
-
-| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
-| :---: | :--- | :---: | :---: | :---: |
-| 🥇 | casper | 3 🔥 | 3 🏆 | ✅ Done |
-| 🥈 | ngon-219 | 0 🔥 | 1 🏆 | ❌ Missing |
-| 🥉 | kiennv | 0 🔥 | 1 🏆 | ❌ Missing |
-| 4 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
-
-| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
-| :---: | :--- | :---: | :---: | :---: |
-| 🥇 | casper | 3 🔥 | 3 🏆 | ✅ Done |
-| 🥈 | ngon-219 | 0 🔥 | 1 🏆 | ❌ Missing |
-| 🥉 | kiennv | 0 🔥 | 1 🏆 | ❌ Missing |
-| 4 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
-
-| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
-| :---: | :--- | :---: | :---: | :---: |
-| 🥇 | casper | 3 🔥 | 3 🏆 | ✅ Done |
-| 🥈 | ngon-219 | 0 🔥 | 1 🏆 | ❌ Missing |
-| 🥉 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
-
-| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
-| :---: | :--- | :---: | :---: | :---: |
-| 🥇 | casper | 3 🔥 | 3 🏆 | ✅ Done |
-| 🥈 | ngon-219 | 0 🔥 | 1 🏆 | ❌ Missing |
-| 🥉 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
-
-| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
-| :---: | :--- | :---: | :---: | :---: |
-| 🥇 | ngon-219 | 0 🔥 | 1 🏆 | ❌ Missing |
-| 🥈 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
-
-| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
-| :---: | :--- | :---: | :---: | :---: |
-| 🥇 | ngon-219 | 0 🔥 | 1 🏆 | ❌ Missing |
-| 🥈 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
-
-| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
-| :---: | :--- | :---: | :---: | :---: |
-| 🥇 | ngon-219 | 1 🔥 | 1 🏆 | ✅ Done |
-| 🥈 | datnt1112 | 1 🔥 | 1 🏆 | ✅ Done |
-
-| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
-| :---: | :--- | :---: | :---: | :---: |
-| 🥇 | ngon-219 | 1 🔥 | 1 🏆 | ✅ Done |
-| 🥈 | datnt1112 | 1 🔥 | 1 🏆 | ✅ Done |
-
 ## 📊 Bảng Theo Dõi Tiến Độ (Leaderboard)
 
-| Thành viên    | Thư mục                                   | Tổng số ngày   | Trạng thái |
-|:--------------|:------------------------------------------|:--------------:|:-----------|
-| **datnt1112** | [/members/datnt1112](./members/datnt1112) |       01       | ⏳          |
+<!-- LEADERBOARD_START -->
+| Thứ hạng  | Thành viên   | Chuỗi hiện tại   | Chuỗi dài nhất   | Trạng thái |
+|:---------:|:-------------|:----------------:|:----------------:|:----------:|
+|    🥇     | ngon-219     |       3 🔥       |       3 🏆       |   ✅ Done   |
+|    🥈     | casper       |       3 🔥       |       3 🏆       |  ✅ Done    |
+|    🥉     | kiennv       |       0 🔥       |       1 🏆       | ❌ Missing  |
+|     4     | datnt1112    |       0 🔥       |       1 🏆       | ❌ Missing  |
+<!-- LEADERBOARD_END -->
+
 # 🚀 Cert-5-Daily: Kỷ Luật & Chinh Phục 🎯
 
 Dự án này là nơi lưu trữ quá trình ôn luyện chứng chỉ hàng ngày của anh em. Với tiêu chí: **5 câu mỗi ngày - 15 phút tập trung - Tích tiểu thành đại.**
