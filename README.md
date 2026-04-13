@@ -10,8 +10,8 @@
 | Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
 | :---: | :--- | :---: | :---: | :---: |
 | 🥇 | **kiennv** | 4 🔥 | 4 🏆 | ✅ Đã xong |
-| 🥈 | **ngon-219** | 3 🔥 | 3 🏆 | ⏳ Chờ bài |
-| 🥉 | **casper** | 3 🔥 | 3 🏆 | ⏳ Chờ bài |
+| 🥈 | **casper** | 4 🔥 | 4 🏆 | ✅ Đã xong |
+| 🥉 | **ngon-219** | 3 🔥 | 3 🏆 | ⏳ Chờ bài |
 | 4 | **datnt1112** | 0 🔥 | 1 🏆 | ⏳ Chờ bài |
 
 <!-- LEADERBOARD_END -->
