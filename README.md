@@ -1,6 +1,13 @@
 
 | Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
 | :---: | :--- | :---: | :---: | :---: |
+| 🥇 | ngon-219 | 5 🔥 | 5 🏆 | ✅ Done |
+| 🥈 | casper | 0 🔥 | 3 🏆 | ❌ Missing |
+| 🥉 | kiennv | 0 🔥 | 1 🏆 | ❌ Missing |
+| 4 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
+
+| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
+| :---: | :--- | :---: | :---: | :---: |
 | 🥇 | ngon-219 | 4 🔥 | 4 🏆 | ✅ Done |
 | 🥈 | casper | 0 🔥 | 3 🏆 | ❌ Missing |
 | 🥉 | kiennv | 0 🔥 | 1 🏆 | ❌ Missing |
