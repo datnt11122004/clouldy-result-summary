@@ -1,6 +1,11 @@
 
 | Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
 | :---: | :--- | :---: | :---: | :---: |
+| 🥇 | kiennv | 0 🔥 | 4 🏆 | ❌ Missing |
+| 🥈 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
+
+| Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
+| :---: | :--- | :---: | :---: | :---: |
 | 🥇 | kiennv | 4 🔥 | 4 🏆 | ✅ Done |
 | 🥈 | datnt1112 | 0 🔥 | 1 🏆 | ❌ Missing |
 ## 📊 Bảng Theo Dõi Tiến Độ (Leaderboard)
