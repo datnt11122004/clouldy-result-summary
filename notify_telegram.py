@@ -54,7 +54,8 @@ def get_added_evidence_files():
     )
 
     added = []
-    pattern = re.compile(r"^A\s+members/([^/]+)/(\d{4}-\d{2}-\d{2})\.md$")
+    # pattern = re.compile(r"^A\s+members/([^/]+)/(\d{4}-\d{2}-\d{2})\.md$")
+    pattern = re.compile(r"^[AMD]\s+members/([^/]+)/(\d{4}-\d{2}-\d{2})\.md$")
 
     for line in result.stdout.splitlines():
         print("DEBUG:", line)  # 👈 thêm log
