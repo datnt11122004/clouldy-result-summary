@@ -14,8 +14,8 @@
 
 | Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
 | :---: | :--- | :---: | :---: | :---: |
-| 🥇 | **casper** | 5 🔥 | 5 🏆 | ✅ Đã xong |
-| 🥈 | **kiennv** | 4 🔥 | 4 🏆 | ⏳ Chờ bài |
+| 🥇 | **casper** | 5 🔥 | 5 🏆 | ⏳ Chờ bài |
+| 🥈 | **kiennv** | 0 🔥 | 4 🏆 | ⏳ Chờ bài |
 | 🥉 | **ngon-219** | 0 🔥 | 3 🏆 | ⏳ Chờ bài |
 | 4 | **datnt1112** | 0 🔥 | 1 🏆 | ⏳ Chờ bài |
 
