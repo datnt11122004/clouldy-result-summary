@@ -19,23 +19,53 @@ MOTIVATIONAL_QUOTES = [
 ]
 
 
+# def get_added_evidence_files():
+#     """Return list of (username, date_str) for newly added evidence files in this commit."""
+#     result = subprocess.run(
+#         ["git", "diff-tree", "--no-commit-id", "-r", "--name-status", "HEAD"],
+#         capture_output=True,
+#         text=True,
+#         check=True,
+#     )
+#     added = []
+#     pattern = re.compile(r"^A\s+members/([^/]+)/(\d{4}-\d{2}-\d{2})\.md$")
+#     for line in result.stdout.splitlines():
+#         m = pattern.match(line)
+#         if m:
+#             username, date_str = m.group(1), m.group(2)
+#             added.append((username, date_str))
+#     return added
+
 def get_added_evidence_files():
-    """Return list of (username, date_str) for newly added evidence files in this commit."""
+    before = os.environ.get("GITHUB_EVENT_BEFORE")
+    after = os.environ.get("GITHUB_SHA")
+
+    if not before or before == "0000000000000000000000000000000000000000":
+        # fallback nếu commit đầu tiên
+        diff_cmd = ["git", "show", "--name-status", after]
+    else:
+        diff_cmd = ["git", "diff", "--name-status", before, after]
+
     result = subprocess.run(
-        ["git", "diff-tree", "--no-commit-id", "-r", "--name-status", "HEAD"],
+        diff_cmd,
         capture_output=True,
         text=True,
         check=True,
     )
+
     added = []
     pattern = re.compile(r"^A\s+members/([^/]+)/(\d{4}-\d{2}-\d{2})\.md$")
+
     for line in result.stdout.splitlines():
+        print("DEBUG:", line)  # 👈 thêm log
         m = pattern.match(line)
         if m:
             username, date_str = m.group(1), m.group(2)
             added.append((username, date_str))
+
     return added
 
+    
 
 def get_current_streak(username, date_str):
     """Count current consecutive streak for a member."""
