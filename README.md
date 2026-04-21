@@ -61,7 +61,7 @@
 
 | Thứ hạng | Thành viên | Chuỗi hiện tại | Chuỗi dài nhất | Trạng thái |
 | :---: | :--- | :---: | :---: | :---: |
-| 🥇 | **ngon-219** | 1 🔥 | 6 🏆 | ✅ Đã xong |
+| 🥇 | **ngon-219** | 2 🔥 | 6 🏆 | ✅ Đã xong |
 | 🥈 | **casper** | 0 🔥 | 5 🏆 | ⏳ Chờ bài |
 | 🥉 | **kiennv** | 0 🔥 | 4 🏆 | ⏳ Chờ bài |
 | 4 | **datnt1112** | 0 🔥 | 1 🏆 | ⏳ Chờ bài |
