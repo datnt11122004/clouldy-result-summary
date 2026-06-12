@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'members/**' # Chỉ chạy khi có thay đổi trong thư mục members
+    branches:
+      - main
   workflow_dispatch: # Cho phép chạy thủ công nếu muốn
 
 jobs:
